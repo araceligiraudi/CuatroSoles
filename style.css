@@ -1,0 +1,96 @@
+body {
+	font-family: 'Architects Daughter', cursive;
+	color: #bdbbb7;
+	font-size: 18px;
+	margin: 1;
+}
+.PORTADA {
+	background-image: url('IMAGENES/portada.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	padding: 175PX;
+  	text-align: left;
+  	border-radius: 10px;
+  	width: 72%
+}
+.boton-amarillo {
+	background-color: #f5dd2a;
+	color: black;
+	padding: 8px 12px;
+	border-radius: 20px;
+	display: inline-block;
+	transition: all 2s ease;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+}
+.boton-amarillo:hover {
+	background-color: ##ffff94;
+	color: white;
+}
+
+.DIVISIONES {
+	width: 1142px;
+	height:1015px;
+	padding: 0px 50px;
+	background-color: #edede8;
+	background-size: cover;
+	display: grid;
+	border-radius: 21px;
+	margin-left: 2px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	border: none;
+}
+h2 {
+	color: black;
+	font-family: 'Quicksand', cursive;
+}
+.CUADROS {
+	display: grid;
+	grid-template-columns: 1fr  1fr  1fr;
+	grid-gap: 32px;
+}
+.PRODUCTOS {
+	background: white;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+	flex-grow: 1;
+}
+.PRODUCTOS img {
+	width: 100%;
+	height: 272px;
+	object-fit: cover;
+	flex-grow: 1;
+}
+.PRODUCTOS h3 {
+	font-family: 'Quicksand', cursive;
+	color: black;
+}
+.PRODUCTOS p {
+	font-family: 'Quicksand', cursive;
+	color: black;
+}
+.FINAL {
+	width: 1142px;
+	height: 100px;
+	padding: 0px 50px;
+	background-color:#0f0f0f;
+	background-size: cover;
+	display: grid;
+	border-radius: 21px;
+	margin-left: 2px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.FINAL h3 {
+	font-family: 'Quicksand', cursive;
+	color: white;
+}
+.FINAL h4 {
+	font-family: 'Quicksand', cursive;
+	color: black;
+}
+}
+
